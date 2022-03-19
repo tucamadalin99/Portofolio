@@ -1,0 +1,12 @@
+@import "../../index.scss";
+
+.cmp-main {
+
+    @media(max-width: $max-screen-width-mobile){
+        margin-top: $spacing-48;
+    }
+
+    @media(max-width: $max-screen-width-tablet) {
+        margin-top: $spacing-48;
+    }
+}

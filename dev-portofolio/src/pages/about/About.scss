@@ -1,0 +1,19 @@
+@import "../../index.scss";
+
+.cmp-about {
+    background-image: url("../../assets/about-cover3.jpg");
+    min-height: $cover-width;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
+
+    &__content {
+
+    }
+}

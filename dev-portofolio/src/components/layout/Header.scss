@@ -16,9 +16,13 @@
     top: 0;
     width: 100%;
     transition: all .2s ease-in-out;
-    box-shadow: 0 $spacing-8 $spacing-6 -$spacing-6 rgb(31, 31, 31);
     border-bottom-left-radius: $spacing-4;
     border-bottom-right-radius: $spacing-4;
+    z-index: 1;
+
+    @media(max-width: $max-screen-width-tablet) {
+        position: fixed;
+    }
 
     @media(max-width: $max-screen-width-mobile) {
         position: fixed;
